@@ -1,0 +1,141 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(assets/Norse-Bold.otf);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+.background {
+    height: 100%;
+    width: 35%;
+}
+
+.logo {
+    width: auto;
+    height: 12vh;
+}
+
+input, label {
+    display: block;
+}
+
+.logo-bar {
+    color: white;
+    display: flex;
+    height: 15%;
+    width: 35%;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo-bar h1 {
+    font-family: 'Norse-Bold';
+    font-size: 10vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    background-color: rgb(238, 236, 236);
+}
+
+.header-text.one,.header-text.two, .header-text.three{
+    font-size: 17px;
+    margin-top: 5vw;
+    margin-left: 35px;
+    margin-right: 130px;
+    font-weight: bold;
+    max-width: 57ch;
+}
+
+.header-text.two {
+    margin-top: 0;
+}
+
+.header-text.three {
+    margin-top: 15px;
+    margin-bottom: 5vh;
+}
+
+.form-container {
+    background-color: white;
+    padding:15px 50px;
+    box-shadow: 0px 1px 9px rgb(214, 210, 210);
+}
+
+form h3 {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    gap: 80px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+input {
+    border: solid 1px rgb(219, 216, 216);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: none;
+    border-color: cyan;
+    box-shadow: 0px 1px 5px rgb(197, 193, 193);
+}
+
+button {
+    margin-top: 30px;
+    margin-left: 30px;
+    border: none;
+    font-size: 14px;
+    padding: 12px 35px;
+    background-color: rgb(223, 132, 147);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+footer {
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+a {
+    color: rgb(223, 132, 147);
+    text-decoration: none;
+}
+
+.error, .error:focus {
+    border-color: rgb(223, 132, 147);
+}
+
+
+  
+    
